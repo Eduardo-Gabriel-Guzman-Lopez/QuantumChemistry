@@ -35,11 +35,5 @@ document.addEventListener("DOMContentLoaded", function() {
             behavior: 'smooth'
         });
     });
-
-    // Agrega un evento de clic al botón de menú para mostrar u ocultar el menú en dispositivos móviles
-    var menuToggle = document.querySelector('.menu-toggle');
-    menuToggle.addEventListener('click', function() {
-        document.querySelector('nav').classList.toggle('active');
-    });
 });
 
